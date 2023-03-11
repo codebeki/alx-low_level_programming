@@ -1,32 +1,24 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _strncat - function that concatenates two strings
+ * _isdigit - checks for a digit (0 through 9)
  *
- * @dest: parameter defined in main
- * @src: parameter defined in main
- * @n: parameter defined in main
+ * @c: parameter hard-coded in main
  *
- * Return: memory address of function (string)
+ * Return: 1 or 0
  */
 
-char *_strncat(char *dest, char *src, int n)
+int _isdigit(int c)
 {
-	char *tmp1 = dest;
-	char *tmp2 = src;
+	int i;
 
-	while (*dest != '\0')
+	if (c >= '0' && c <= '9')
 	{
-		dest++;
+		i = 1;
 	}
-	while (src < tmp2 + n && *src != '\0')
+	else
 	{
-		*dest = *src;
-		src++;
-		dest++;
+		i = 0;
 	}
-	*dest++ = '\0';
-	dest = tmp1;
-	return (dest);
+	return (i);
 }
