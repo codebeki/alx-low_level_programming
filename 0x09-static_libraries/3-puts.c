@@ -4,7 +4,7 @@
  * _puts - function that prints a string, followed by a new line, to stdout
  *
  * @str: parameter defined in main
- *
+ * by Boss
  * Return: void
  */
 
