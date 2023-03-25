@@ -6,8 +6,8 @@
  *
  * @s: parameter defined in main, pointer to memory (string)
  * @accept: parameter defined in main, characters to be compared with s string
- *
  * Return: integer, number of bytes common to the two strings
+ * by Boss
  */
 
 unsigned int _strspn(char *s, char *accept)
