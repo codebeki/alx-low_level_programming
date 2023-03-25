@@ -7,8 +7,8 @@
  * @dest: parameter defined in main
  * @src: parameter defined in main
  * @n: parameter defined in main
- *
  * Return: memory address of function (string)
+ * by Boss
  */
 
 char *_strncat(char *dest, char *src, int n)
