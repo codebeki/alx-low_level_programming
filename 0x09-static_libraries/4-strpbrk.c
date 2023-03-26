@@ -6,7 +6,7 @@
  *
  * @s: parameter defined in main, pointer to memory (string)
  * @accept: parameter defined in main, characters to be compared with s string
- *
+ * by  Boss
  * Return: integer, pointer to the first byte common to the two strings
  */
 

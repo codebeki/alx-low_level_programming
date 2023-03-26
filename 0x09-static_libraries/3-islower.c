@@ -3,8 +3,8 @@
 /**
  * _islower - checks for lowercase character
  *
- * @c: parameter hard-coded in main function
- *
+ * @c: parameter hard-coded in main functin
+ * by  Boss
  * Return: 0 or 1
  */
 
