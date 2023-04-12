@@ -10,6 +10,7 @@
  * _is_elf - check if file is elf
  * @h: header elf
  * Return: void
+ * by Boss
  */
 void _is_elf(char *h)
 {
