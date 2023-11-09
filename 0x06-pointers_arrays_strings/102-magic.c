@@ -2,12 +2,12 @@
 
 int main(void)
 {
-int m;
-int b[5];
+int n;
+int a[5];
 int *p;
 
-b[2] = 1024;
-p = &m;
+a[2] = 1024;
+p = &n;
 /*
 * write a code here...
 * Remark:
@@ -17,6 +17,6 @@ p = &m;
 */
 *(p + 5) = 98;
 /*  this prints 98\n */
-printf("a[2] = %d\n", b[2]);
+printf("a[2] = %d\n", a[2]);
 return (0);
 }
