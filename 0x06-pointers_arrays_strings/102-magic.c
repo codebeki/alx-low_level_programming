@@ -14,6 +14,7 @@ p = &n;
 * - you are not allowed to use b
 * - you are not allowed to modify p
 * - only one statement
+*   ou are not allowed to code anything else than the line of expected line of code at the expected line
 */
 *(p + 5) = 98;
 /*  this prints 98\n */
