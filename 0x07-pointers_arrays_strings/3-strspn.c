@@ -1,29 +1,36 @@
 #include "main.h"
+
 /**
- * _strspn - Entry point
- * @s: input
- * @accept: input
- * Return: Always 0 (Success)
- * by Boss
+ * _strspn - search a string for a set of bytes
+ * @s: char string array
+ * @accept: char array to check bytes with
+ * Return: Number of bytes in the intial segment of `s`
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int n = 0;
-	int r;
+	int i;
+	int j;
+	int c;
 
-	while (*s)
+	i = 0;
+	c = 0;
+
+	while (s[i] != '\0')
 	{
-		for (r = 0; accept[r]; r++)
+		j = 0;
+		while (accept[j] != '\0')
 		{
-			if (*s == accept[r])
+			if (s[i] == accept[j])
 			{
-				n++;
+				c++;
 				break;
 			}
-			else if (accept[r + 1] == '\0')
-				return (n);
+			j++;
 		}
-		s++;
+		if (accept[j] == '\0')
+			break;
+		i++;
 	}
-	return (n);
+	return (c);
 }
