@@ -1,19 +1,21 @@
 #include "main.h"
 /**
- * _strchr - Entry point
- * @s: input
- * @c: input
- * Return: Always 0 (Success)
- * by Boss*
+ * _strchr - returns a pointer to the first occurence of the
+ * character c in the string s
+ * @c: parameter for c to return
+ * @s: string to search character
+ * Return: pointer to first occurence of character c or null if not found
  */
 char *_strchr(char *s, char c)
 {
-	int i = 0;
-
-	for (; s[i] >= '\0'; i++)
+	while (*s != '\0')
 	{
-		if (s[i] == c)
-			return (&s[i]);
+		if (*s == c)
+			return (s);
+		s++;
 	}
-	return (0);
+	if (*s == c)
+		return (s);
+	else
+		return ('\0');
 }
