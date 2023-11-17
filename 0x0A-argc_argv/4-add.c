@@ -5,7 +5,7 @@
  * _atoi - converts a string to an integer
  * @s: string to be converted
  * Return: the int converted from the string
- * by Boss
+ * by beki
  */
 int _atoi(char *s)
 {
@@ -52,6 +52,7 @@ int _atoi(char *s)
  * @argv: array of arguents
  *
  * Return: 0 (Success), or 1 (Success)
+ * by beki
  */
 int main(int argc, char *argv[])
 {

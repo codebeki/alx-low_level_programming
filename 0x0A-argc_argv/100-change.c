@@ -8,7 +8,7 @@
  * @argc: number of arguments
  * @argv: array of arguments
  * Return: 0 (Success), 1 (Error)
- * by Boss
+ * by beki
  */
 int main(int argc, char *argv[])
 {
