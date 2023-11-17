@@ -2,12 +2,13 @@
 #include <stdio.h>
 
 /**
- * _strcat - function that concatenates two strings
+ * _strcat -  concatenates two strings
  *
- * @dest: parameter defined in main
- * @src: parameter defined in main
+ * @dest: destnation
+ * @srcc: source.
  *
  * Return: memory address of function (string)
+ * by beki
  */
 
 char *_strcat(char *dest, char *src)
