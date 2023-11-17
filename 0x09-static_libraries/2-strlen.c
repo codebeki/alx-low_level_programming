@@ -6,6 +6,7 @@
  * @s: parameter defined in main
  *
  * Return: length of string
+ * by beki
  */
 
 int _strlen(char *s)
