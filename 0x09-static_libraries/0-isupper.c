@@ -6,6 +6,7 @@
  * @c: parameter hard-coded in main
  *
  * Return: 0 or 1
+ * by beki
  */
 
 int _isupper(int c)

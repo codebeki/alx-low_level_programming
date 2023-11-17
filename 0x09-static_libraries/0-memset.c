@@ -1,14 +1,15 @@
-#include "main.h"
+include "main.h"
 #include <stdio.h>
 
 /**
- * _memset - function that fills memory with a constant byte
+ * _memset - fills memory with a constant byte
  *
- * @s: parameter defined in main, pointer to memory area
+ * @s: memory area.
  * @b: parameter defined in main, constant byte
  * @n: parameter defined in main, number of bytes to be filled
  *
- * Return: memory address of function (memory area)
+ * Return: The pointer  (memory area)
+ * bt beki
  */
 
 char *_memset(char *s, char b, unsigned int n)
