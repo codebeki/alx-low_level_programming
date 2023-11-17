@@ -9,7 +9,7 @@ include "main.h"
  * @n: parameter defined in main, number of bytes to be filled
  *
  * Return: The pointer  (memory area)
- * bt beki
+ * by  beki
  */
 
 char *_memset(char *s, char b, unsigned int n)
