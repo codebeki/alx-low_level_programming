@@ -1,20 +1,18 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * malloc_checked - cause normal process termination with a status value of 98
- *
- * @b: allocated memory
- *
- * Return: a pointer to the allocated memory
- * bt beki
+ * malloc_checked - Main Entry
+ * @b: input
+ * Return: 0
+ * by beki
  */
 void *malloc_checked(unsigned int b)
 {
-	void *i;
+	void *p;
 
-	i = malloc(b);
-	if (i == NULL)
+	p = malloc(b);
+	if (p == NULL)
 		exit(98);
-	return (i);
-
+	return (p);
 }
