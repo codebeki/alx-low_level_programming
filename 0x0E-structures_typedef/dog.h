@@ -7,7 +7,7 @@
  * @age: Second member
  * @owner: Third member
  * Description: Longer description
- * by Boss
+ * by Beki
  */
 struct dog
 {
