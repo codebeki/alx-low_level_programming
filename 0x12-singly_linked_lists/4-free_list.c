@@ -1,10 +1,12 @@
 #include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include "lists.h"
 
 /**
  * free_list - frees a linked list
  * @head: list_t list to be freed
- * by Boss
+ * by beki
  */
 void free_list(list_t *head)
 {
